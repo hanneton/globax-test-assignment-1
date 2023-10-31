@@ -1,0 +1,11 @@
+@font-face {
+    src: url(./fonts/NunitoSans_10pt-Bold.ttf) format('ttf');
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+}
+
+@font-face {
+    src: url(./fonts/NunitoSans_10pt-Regular.ttf) format('ttf');
+    font-family: 'Nunito Sans';
+    font-weight: 400;
+}

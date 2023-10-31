@@ -1,0 +1,42 @@
+.card {
+    max-width: 357px;
+    width: 100%;
+    padding: 24px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.card__heading {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 24px;
+    line-height: 30px;
+}
+
+.card__paragraph {
+    margin: 0 0 12px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 0;
+    color: #8189A3;
+}
+
+.card__paragraph:last-child {
+    margin: 0;
+}
+
+.card__paragraph_phone:before {
+    content: url(../../images/phone.svg);
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 14px;
+}
+
+.card__paragraph_email:before {
+    content: url(../../images/email.svg);
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 14px;
+}
